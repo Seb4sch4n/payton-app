@@ -1,9 +1,9 @@
 const { useState, useEffect, useRef } = React;
 
 // --- 1. CONFIGURATION ---
-const SUPABASE_URL = "https://hlrnriiifbptpdebugup.supabase.co"; 
+const SUPABASE_URL = "XXX"; 
 // ⚠️ IMPORTANT: PASTE YOUR SUPABASE KEY BELOW (Inside the quotes)
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhscm5yaWlpZmJwdHBkZWJ1Z3VwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM2NzYwNTQsImV4cCI6MjA3OTI1MjA1NH0.vFwcvQC6VRZjAARAPo5yNDJX45L-Y6ixBbs0LQsNs4A"; 
+const SUPABASE_ANON_KEY = "XXX"; 
 
 // --- TRANSLATIONS DICTIONARY ---
 const TRANSLATIONS = {
@@ -798,4 +798,5 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
     </script>
 </body>
+
 </html>
